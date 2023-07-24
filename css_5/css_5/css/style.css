@@ -1,0 +1,10 @@
+body {
+	padding: 30px;
+}
+
+.block {
+	background: url('../img/51aa18f2ae0ae.jpeg');
+	height: 300px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px #000;
+}

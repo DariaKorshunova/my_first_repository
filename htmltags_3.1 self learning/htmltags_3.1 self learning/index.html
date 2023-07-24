@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="EN">
+	<head>
+		<title>My training with forms</title>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+
+	<body>
+		<form action="#" method="post" enctype="multipart/form-data">
+			<h1>Poll</h1>
+			<h2>Who are you from the spice girls</h2>
+			<img src="img/images.jfif" alt="image not loaded">
+
+			<p>In this short poll we will show you who are you from the Spice girls!<br>
+				Answer now and get the result in 5 minutes, allwright!
+			</p>
+
+			<h3>Today after answering our interesting questions you will know
+			who you are from Spice girls and more:</h3>
+			<ul>
+				<li>you will better understand your own personality</li>
+				<li>you will know more interesting facts about your favourite "girl"</li>
+			</ul>
+
+			<h4>Now please register yourself or if you already have an account 
+			please login :) <img src="img/Please_log_in_image.png" width="150" height="150" alt=""></h4>
+
+			<div>
+				<label for="username">Имя</label>
+				<div>
+					<input placeholder="Имя" tabindex="1" id="username" name="username" type="text" />
+				</div>
+			</div>
+
+			<div>
+				<label for="userpass">Пароль</label>
+				<div>
+					<input placeholder="password" tabindex="2" id="userpass" name="userpass" type="password" maxlength="12"/>
+				</div>
+			</div>
+
+			<h3>So when you have already registered please answer the next questions: </h3>
+
+			<div>
+				<p>Your favourite meal </p>
+				<div>
+					<input tabindex="3" type="radio" id="favourite_meal1" name="meal" value="Chicken soup" /> 
+					<label for="favourite_meal1">Chicken soup </label>
+				</div>
+			</div>
+			<div>
+				<input checked tabindex="3" type="radio" id="favourite_meal2" name="meal" value="Burger" /> 
+				<label for="favourite_meal2">Burger </label>
+			</div>
+			<div>
+				<input checked tabindex="3" type="radio" id="favourite_meal3" name="meal" value="Salad" /> 
+				<label for="favourite_meal3">Salad </label>
+			</div>
+			<div>
+				<input checked tabindex="3" type="radio" id="favourite_meal4" name="meal" value="Fried potato" /> 
+				<label for="favourite_meal4">Fried potato </label>
+			</div>
+			<div>
+				<input checked tabindex="3" type="radio" id="favourite_meal5" name="meal" value="something from" /> 
+				<label for="favourite_meal5">something from the depths of the sea </label>
+			</div>
+			<div>
+				<input checked tabindex="3" type="radio" id="favourite_meal6" name="meal" value="something vegeterian" /> 
+				<label for="favourite_meal6">something vegeterian </label>
+			</div>
+
+			<h3> Now we kindley ask you to answer the next questions: </h3>
+			<div>
+				<p>Your favourite type of shoes </p>
+				<div>
+					<input tabindex="4" type="radio" id="type_shoes1" name="type" value="espadrilles" />
+					<label for="type_shoes1">espadrilles</label>
+				</div>
+			</div>
+			<div>
+				<input tabindex="4" type="radio" id="type_shoes2" name="type" value="high heels" />
+				<label for="type_shoes2">high heels</label>
+			</div>
+			<div>
+				<input tabindex="4" type="radio" id="type_shoes3" name="type" value="sport shoes" />
+				<label for="type_shoes3">sport shoes</label>
+			</div>
+			<div>
+				<input tabindex="4" type="radio" id="type_shoes4" name="type" value="pumps" />
+				<label for="type_shoes4">pumps</label>
+			</div>
+
+			<div>
+				<p>
+					<b>Your favourite colour:</b>
+				</p>
+				<select tabindex="5" name="color">
+					<option value="pink">pink</option>
+					<option value="violet">violet</option>
+					<option selected value="blue">blue</option>
+					<option value="green">green</option>
+					<option value="gray">gray</option>
+					<option value="yellow">yellow</option>
+					<option value="red">red</option>
+					<option value="black">black</option>
+					<option value="orange">orange</option>
+					<option value="white">white</option>
+					<option value="kakish shmackish">kakish shmackish</option>
+				</select>
+			</div>
+
+			<h3>And the last part of our questionnaire!</h3>
+			<p>Your favourite kind of spending free time: </p>
+
+			<div>
+				<input tabindex="6" type="radio" id="spending_time1" name="spending time" 
+						 value="to read a book" />
+				<label for="spending_time1">to read a book</label>
+			</div>
+			<div>
+				<input tabindex="6" type="radio" id="spending_time2" name="spending time" 
+				       value="to play with my dog/cat etc." />
+				<label for="spending_time2">to play with my dog/cat etc.</label>
+			</div>
+			<div>
+				<input tabindex="6" type="radio" id="spending_time3" name="spending time" 
+				       value="to meet with friends" />
+				<label for="spending_time3">to meet with friends</label>
+			</div>
+			<div>
+				<input tabindex="6" type="radio" id="spending_time4" name="spending time" 
+				value="to sleep"/>
+						<label for="spending_time4">to sleep</label>
+			</div>
+			<div>
+				<input tabindex="6" type="radio" id="spending_time5" name="spending time" 
+				       value="to watch some movie being home alone" />
+				<label for="spending_time5">to watch some movie being home alone</label>
+			</div>
+
+			<h3>Your favourite weather:</h3>
+			<div>
+				<input tabindex="7" type="checkbox" id="weather1" name="rainy" value="yes" />
+				<label for="weather1">rainy</label>
+			</div>
+			<div>
+				<input tabindex="8" type="checkbox" id="weather2" name="sunny" value="yes" />
+				<label for="weather2">sunny</label>
+			</div>
+			<div>
+				<input tabindex="9" type="checkbox" id="weather3" name="windy" value="yes" />
+				<label for="weather3">windy</label>
+			</div>
+			<div>
+				<input tabindex="10" checked type="checkbox" id="weather4" 
+				       name="I don`t like to be outside and hate all humanity" value="yes" />
+				<label for="weather4">I don`t like to be outside and hate all humanity</label>
+			</div>
+			<div>
+				<input tabindex="11" type="checkbox" id="weather5" name="I have no eyes" value="yes" />
+				<label for="weather5">I have no eyes</label>
+			</div>
+			<div>
+				<input tabindex="12" disabled type="checkbox" id="weather6" name="I wanna kill everybody" 
+				       value="yes" />
+				<label for="weather6">I wanna kill everybody</label>
+			</div>
+
+			<h3>Now you answered all questions, please klick <b>"submit"</b> and you will
+			receive answer in a few minutes, your e-mail address we already have. </h3>
+
+			<div>
+				<h3>Extra information:</h3>
+				<p> If you have to tell us something extra
+					please don`t be shy, or if you didn`t find acceptable answer for your character
+					in overhead list, we are always here for you!
+				</p>
+			<textarea tabindex="13" placeholder="extra information" name="text">user entered data</textarea>
+			</div>
+
+			<div>
+				<p>And now:</p>
+				<button tabindex="14" type="submit">submit</button>
+				<button tabindex="15" type="reset">reset</button>
+				<button tabindex="16" type="submit">I`ve lost my time, go to the hell</button>
+			</div>
+
+			<h3> <a target="blank" href="https://www.buzzfeed.com/piperthomas/which-beatles-member-are-you-4n61hz8sbm">Here</a>
+			you can also pass the test "Who I am from "The Beatles"</h3>
+		</form>
+	</body>
+</html>

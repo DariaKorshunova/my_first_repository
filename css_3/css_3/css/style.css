@@ -1,0 +1,14 @@
+.example-block {
+	display: none;
+	border: 1px solid #000;
+}
+
+.example-string {
+	display: inline-block;
+	padding: 20px;
+	border: 1px solid #000;
+}
+
+.example-image {
+	max-height: 100px;
+}

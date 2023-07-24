@@ -1,0 +1,63 @@
+h1 {
+	font-size: 30px;
+	line-height: 70px;
+	text-indent: 30px;
+	background-color: #00ffb3;
+	margin: 20px 2230px 20px 40px;
+}
+
+#bodyspecial {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #404238;
+	background-color: #f4eeae;
+	font-size: 15px;
+	font-weight: 400;
+	text-shadow: 1px 1px 1px #6a7c27;
+	line-height: normal;
+}
+
+.colorh2 {
+	color: #156a60;
+}
+
+.sizeh2 {
+	font-size: 40px;
+}
+
+.weighth2 {
+	font-weight: bold;
+}
+
+#special4thparagraph {
+	color: #6a3a15;
+	background-color: #1e8399;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+p:hover {
+	background-color: yellow;
+}
+
+p::first-line {
+	background-color: violett;
+}
+
+input {
+	background-color: #ff4000;
+}
+
+input:hover {
+	background-color: yellowgreen;
+}
+
+.text div {
+	border: 1px solid #7a956b;
+	margin: 0px 180px 10px 0px;
+}
+
+div.text:hover {
+	background-color: greenyellow;
+
+}

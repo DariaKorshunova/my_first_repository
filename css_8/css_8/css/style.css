@@ -1,0 +1,189 @@
+.block {
+	box-shadow: 5px 5px 10px 15px pink, inset 5px 5px 10px 5px #000;
+	border: 5px solid red;
+	border-top: none;
+	max-width: 100vmax;
+	margin: 0 auto;
+	height: 1800px;
+	position: relative;
+	padding-top: 20px;
+}
+
+.block div {
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+}
+
+h1 {
+	color: #b3493d;
+	margin-top: 5px;
+	margin-left: 25vw;
+	margin-right: 25vw;
+}
+
+h1:hover {
+	background: yellow;
+	margin-right: 30vw;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+
+
+.block__1 {
+	background-color: #a9a770;
+}
+
+.block__2 {
+	background-color: #ffd11a;
+	color: #fff;
+	top: 0;
+	position: sticky;
+}
+
+.block__3 {
+	background-color: #a9a770;
+}
+
+.block__4 {
+	background-color: #ffd11a;
+	top: 0;
+	position: sticky;
+}
+
+.block1 {
+	display: flex;
+	margin: 0 auto;
+	margin-top: 50px;
+	border: 4px solid green;
+	height: 75vw;
+	width: 75vw;
+	background: #18b5a4;
+}
+
+.columns {
+	flex: 33.333%;
+}
+
+.first_column {
+	margin-left: 5px;
+	margin-top: 5px;
+	border: 5px solid #9ebc5c;
+	font-size: 12px;
+	font-weight: normal;
+	background: #b5cf7d;
+}
+
+.second_column {
+	margin-left: 5px;
+	margin-top: 5px;
+	border: 5px solid #6d8637;
+	font-size: 12px;
+	font-weight: normal;
+	background: #99bd4c;
+}
+
+.third_column {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	border: 5px solid #475723;
+	font-size: 12px;
+	font-weight: normal;
+	background: #688230;
+}
+
+.first_column:hover {
+	background: #5463c4;
+}
+
+.second_column:hover {
+	background: #c45481;
+}
+
+.third_column:hover {
+	background: yellow;
+}
+
+.blockbear {
+	box-shadow: 5px 5px 10px 15px pink, inset 5px 5px 10px 5px #000;
+	padding: 0 0 58% 0;
+	margin-top: 5vw;
+	border: 3px solid green;
+	max-width: 100%;
+	max-height: 100%;
+	position: relative;
+}
+
+
+.blockbearwrapper div {
+	line-height: 50px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.blockbear1 {
+	color: #721d4c;
+	background: #a9a770;
+}
+
+.blockbear2 {
+	color: #721d4c;
+	background: #ffd11a;
+	position: sticky;
+	top: 0;
+}
+
+.blockbear3 {
+	color: #721d4c;
+	background: #a9a770;
+}
+
+.imagewrapper {
+	overflow: hidden;
+}
+
+img {
+	margin-top: 25vw;
+	margin-bottom: 25vw;
+	max-width: 100%;
+	max-height: 100%;
+	padding-left: 20vw;
+	object-fit: fill;
+}
+
+h1.example__title:hover{
+	background-color: blue;
+	margin-right: 60vw;
+}
+
+.example {
+	padding: 80px 15px 0 15px;
+}
+
+.example__container {
+	margin-bottom: 5px;
+	margin-right: 5px;
+	max-width: 62.5rem;
+	position: relative;
+}
+
+.example__container {
+	content:"";
+	background: url('../img/1639641054856.jfif') 0 0 / 100% no-repeat;
+	position: absolute;
+	right: 0;
+	width: 80%;
+}
+
+.example__text {
+	height: 100%;
+	weight: 100%;
+	font-size: 0.813rem;
+	font-style: italic;
+}

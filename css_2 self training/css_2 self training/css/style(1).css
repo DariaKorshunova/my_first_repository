@@ -1,0 +1,160 @@
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	padding: 30px;
+}
+
+.block {
+	background: url('../img/kartinki24_ru_summer_162.jpg');
+	height: 500px;
+	border-radius: 15px;
+	box-shadow: 0 0 15px #000;
+}
+
+.main-header {
+	color: #d3be36;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+	line-height: 400px;
+	font-size: 35px;
+}
+
+.mainkingdiv1 {
+	display: flex;
+}
+
+.block1 {
+	margin-top: 20px;
+	background: #36c1d3;
+	height: 600px;
+	width: 600px;
+	border-radius: 25px 0 25px 0;
+	box-shadow: 3px 3px 15px #000;
+	margin-right: 100px;
+	margin-bottom: 15px;
+}
+
+.firstblock {
+	color: #cc6728;
+	font-weight: bolder;
+	font-size: 35px;
+}
+
+.empty1 {
+	margin-top: 20px;
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(39, 12, 7, 0.45) 0%,rgba(39, 35, 7, 0.78) 50%,rgba(82, 73, 15, 0.78) 100%);
+	height: 500px;
+	width: 500px;
+	border-radius: 50%;
+	box-shadow: 3px 3px 15px #3f9251;
+}
+
+.mainkingdiv2 {
+	display: flex;
+}
+
+.block2 {
+	background: rgb(221, 137, 85);
+	background: -webkit-linear-gradient(top, rgba(221, 137, 85, 1) 0%,rgba(200, 77, 40, 1) 50%,rgba(24,181,164,1) 100%);
+	background: -moz-linear-gradient(top, rgba(221, 137, 85, 1) 0%, rgba(200, 77, 40, 1) 50%, rgba(24,181,164,1) 100%);
+	background: linear-gradient(to bottom, rgba(221, 137, 85, 1) 0%,rgba(200, 77, 40, 1) 50%,rgba(24,181,164,1) 100%);
+	height: 500px;
+	width: 500px;
+	border-radius: 25px 0 25px 0;
+	box-shadow: 3px 3px 15px #000;
+}
+
+.secondblock {
+	color: #2838c8;
+	font-weight: 500;
+	font-size: 14px;
+	text-align: right;
+}
+
+.emty2 {
+	margin-right: 10px;
+	margin-left: 10px;
+	background:  -webkit-radial-gradient(center, ellipse cover, rgba(200, 236, 161, 1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%);
+	height: 500px;
+	width: 500px;
+	border-radius: 50%;
+	box-shadow: 3px 3px 15px #3f9251;
+}
+
+.fourthblock {
+	color: #cfc126;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+
+.block4 {
+	background-color: #18b5a4;
+	height: 500px;
+	width: 500px;
+	border-radius: 0 25px 0 25px;
+}
+
+.fourthblock {
+	color: #cfc126;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: left;
+}
+
+.listblock {
+	display: flex;
+	margin-top: 30px;
+}
+
+.list {
+	margin: 50px 0 50px 0;
+}
+
+.list li {
+	font-size: 24px;
+	margin: 0 0 35px 0;
+	background: url('../img/rsz_w128h1281338911623checkmark.png') left no-repeat;
+	padding-left: 120px;
+	margin-right: 100px;
+}
+
+.block5 {
+	background-color: #18b5a4;
+	height: 500px;
+	width: 500px;
+	border-radius: 0 25px 0 25px;
+}
+
+.list1 li:before {
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: red;
+	display: inline-block;
+	margin: 0 10px 0 0;
+	list-style-type: none;
+}
+
+.list2 li:before {
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: blue;
+	display: inline-block;
+	margin: 0 10px 0 0;
+	list-style-type: none;
+}
+
+.list2 li:after {
+	content: '>>>>>>>>';
+}
+
+ul {
+	list-style-type: none;
+}
+
+.be li {
+	list-style-type: none;
+}
