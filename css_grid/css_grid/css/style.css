@@ -1,0 +1,98 @@
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+
+}
+.content {
+	padding: 30px 3%;
+}
+.grid {
+	font-size: 30px;
+	margin: 0 0 40px 0;
+	position: relative;
+}
+.grid__body {
+	display: grid;
+	grid-template: repeat(2, 1fr)/repeat(3, 1fr);
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+.grid__item {
+	margin: 30px;
+	text-align: center;
+	border: 2px dashed rgba seagreen;
+	padding: 30px;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-template: [start] "header header" 100px [row2]
+	               [row2] "side content" 1fr [row-end] / 150px 1fr;
+	grid-template-columns: 150 px 1fr;
+	grid-template-rows: 100px 1fr;
+	grid-template-areas: "header header";
+	                     "side content";
+}
+.grid-header,
+.grid-side,
+.grid-content{
+	padding: 30px;
+	border: 2px dashed green;
+	margin: 0 0 15px 0;
+}
+
+.grid-header {
+	grid-area: header;
+}
+
+.grid-side {
+	grid-area: side;
+}
+
+.grid-content {
+	grid-area: content;
+}
+
+#grid-col {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-columns: 50px 100px 150px;
+	grid-template-columns: 25% 50% 25%;
+	grid-template-columns: 100px 20% auto;
+	grid-template-columns: repeat(3, auto);
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+div.cell {
+	background: LightBlue;
+	border: 1px solid Blue;
+	padding: 10px;
+}
+
+@media screen and (max-width: 640px) {
+	#grid-col { grid-template-columns: 100%; }
+}
+
+#grid-row {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 50px 100px;
+}
+
+div.cell_1 {
+	background: #fff600;
+	border: 1px solid #000;
+	padding: 10px;
+}
+
+#grid-gap {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+}
+
+div.cell_2 {
+	background: #fff600;
+	border: 1px solid #000;
+	padding: 10px;
+}
